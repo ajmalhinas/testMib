@@ -1,0 +1,12 @@
+Test Case ID,Runmode,url,userName,password,terminal,errorMsg,amt,amtConfirm,Remark
+Login_1,1,http://localhost:8080/mib,inoovalab,mi,illff.br4,NaN,,,success
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,`,,,

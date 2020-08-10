@@ -1,0 +1,4 @@
+,Run Mode,Query1,Query2
+QueryOptimization,1,SELECT * FROM client,"SELECT id, status, client, lstLogin, lstLogout, term_id FROM client"
+QueryOptimization,1,SELECT * FROM client,"SELECT id, status, client, lstLogin, lstLogout FROM client"
+QueryOptimization,1,SELECT * FROM client,"SELECT status, client, lstLogin, lstLogout FROM client"

@@ -1,0 +1,14 @@
+Test Case ID,Runmode,url,clickNew,cacSearch,cacSelection,cacNo,fName,errorMsg1,amt,amtConfirm,errorMsg2,msg,savingBalBefore,savingBalAfter,Remark
+DepositCash,1,http://localhost:8080/mib/m/DUI,NaN,NaN,NaN,1200,NaN,Customer Account with key {id=1200} not found,1000,1000,NaN,NaN,,,Non existing cAc No
+DepositCash,1,NaN,,NaN,NaN,400009,Sally Chapman,NaN,1000,1100,Confirmation amount is different,NaN,"1,154.62","1,154.62",confirmation amount is different
+DepositCash,1,NaN,,NaN,NaN,400009,Sally Chapman,NaN,-1000,-1000,NaN,Deposit accepted 4 0 0 0 0 0 1 7 9 1 8,"1,154.62",154.62,negative deposit
+DepositCash,1,NaN,,NaN,NaN,400009,Sally Chapman,NaN,1000,1000,NaN,Deposit accepted 4 0 0 0 0 0 1 7 9 1 9,154.62,"1,154.62",Deposit using entering cAc No
+DepositCash,1,NaN,,,"Choose,8",NaN,Blake Stewart,NaN,1000,1000,NaN,Deposit accepted 4 0 0 0 0 0 1 7 9 2 0,"2,332.83","3,332.83",Deposit using cAc search
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,`,,,,,,,,,,,
+,,,,,,,,`,,,,,,,

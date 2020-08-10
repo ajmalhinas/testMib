@@ -1,0 +1,14 @@
+Test Case ID,Runmode,url,clickNew,cacSearch,cacSelection,cacNo,fName,errorMsg1,amt,amtConfirm,errorMsg2,msg,savingBalBefore,savingBalAfter,Remark
+WithdrawalCash,1,http://localhost:8080/mib/m/WUI,NaN,NaN,NaN,1200,NaN,Customer Account with key {id=1200} not found,100,100,NaN,NaN,,,Non existing cAc No
+WithdrawalCash,0,NaN,,NaN,NaN,400006,Peter Gill,NaN,100,90,Confirmation amount is different,NaN,401.10,401.10,confirmation amount is different
+WithdrawalCash,0,NaN,,NaN,NaN,400006,Peter Gill,NaN,100,100,NaN,Widthdrawal success 4 0 0 0 0 0 0 2 4 9 4,401.10,301.10,negative withdrawal
+WithdrawalCash,0,NaN,,NaN,NaN,400006,Peter Gill,NaN,100,100,NaN,Widthdrawal success 4 0 0 0 0 0 0 2 4 9 5,301.10,201.10,withdrawal using entering cAc No
+WithdrawalCash,1,NaN,,,"Choose,9",NaN,Blake Stewart,NaN,1000,1000,NaN,Widthdrawal success 4 0 0 0 0 0 0 2 4 9 6,3332.83,"2,332.83",withdrawal using cAc search
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,`,,,,,,,,,,,
+,,,,,,,,`,,,,,,,
