@@ -25,5 +25,21 @@ WithdrawalCash,Verify the save error msg,,ox_mib_WUI__errors_table,verifyText,er
 WithdrawalCash,Verify msg,,ox_mib_WUI__messages_table,verifyText,msg,
 WithdrawalCash,Verify saving balance after save ,,ox_mib_WUI__customerAc___savingBal,verifyInputText,savingBalAfter,
 WithdrawalCash,verify tables [csv file names were assumed from convention],,"Split,WidthdrawalNote,Trans,CAc",fnlyVerifyTables,,
+DepositCash,reset tables,,"Split,DepositNote,Trans,Cac",stpResetTables,,
+DepositCash,Navigat to DUI,,,navigate,url,
+DepositCash,Cick new,,ox_mib_DUI__DUI___new,click,clickNew,
+DepositCash,Enter Cac Number,,ox_mib_DUI__customerAc___id,input,cacNo,1000
+DepositCash,Click customer account search,,ox_mib_DUI__property_actions_customerAc___id,click,cacSearch,
+DepositCash,Select a customer account from search dialog,,,clickLinkText,cacSelection,1000
+DepositCash,Verify the cAc load error message,,ox_mib_DUI__errors_table,verifyText,errorMsg1,1000
+DepositCash,Verify the loaded Cac details,,ox_mib_DUI__customerAc___op1___fName,verifyInputText,fName,
+DepositCash,Verify saving balance before save,,ox_mib_DUI__customerAc___savingBal,verifyInputText,savingBalBefore,
+DepositCash,Enter the cash paid amount,,ox_mib_DUI__cashPaid,input,amt,
+DepositCash,Enter the confirmation amount,,ox_mib_DUI__amtConfirm,input,amtConfirm,
+DepositCash,save deposit,,ox_mib_DUI__DUI___save,click,,1000
+DepositCash,Verify the save error msg,,ox_mib_DUI__errors_table,verifyText,errorMsg2,
+DepositCash,Verify msg,,ox_mib_DUI__messages_table,verifyText,msg,
+DepositCash,Verify saving balance after save ,,ox_mib_DUI__customerAc___savingBal,verifyInputText,savingBalAfter,
+DepositCash,verify tables [csv file names were assumed from convention],,"Split,DepositNote,Trans,CAc",fnlyVerifyTables,,
 QueryOptimization,set database,,"jdbc:mysql://localhost:3306/br4,a,1",setDB,,
 QueryOptimization,Check weather normal and optimized query are equivalent ,,,assertResultsEqual,,
