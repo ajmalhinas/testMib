@@ -9,7 +9,7 @@ Login_1,Click on Login button,,ox_mib_SignInIL__SignInIL___signIn,click,,200
 Login_1,Verify text,,ox_mib_SignInIL__errors_table,verifyText,errorMsg,
 Login_1,verify tables [csv file names were assumed from convention],,"Client, LoginAttempt",fnlyVerifyTables,,
 Logout_1,Logout,,Sign out (inoovalab),clickLinkText,,
-WithdrawalCash,reset tables,,"Split,WidthdrawalNote,Trans,Cac",stpResetTables,,
+WithdrawalCash,reset tables,,"Split,WidthdrawalNote,Trans,Cac,Job",stpResetTables,,
 WithdrawalCash,Navigat to WUI,,,navigate,url,
 WithdrawalCash,Cick new,,ox_mib_WUI__WUI___new,click,clickNew,
 WithdrawalCash,Enter Cac Number,,ox_mib_WUI__customerAc___id,input,cacNo,1000
@@ -20,12 +20,12 @@ WithdrawalCash,Verify the loaded Cac details,,ox_mib_WUI__customerAc___op1___fNa
 WithdrawalCash,Verify saving balance before save,,ox_mib_WUI__customerAc___savingBal,verifyInputText,savingBalBefore,
 WithdrawalCash,Enter the cash paid amount,,ox_mib_WUI__cashPayed,input,amt,
 WithdrawalCash,Enter the confirmation amount,,ox_mib_WUI__amtConfirm,input,amtConfirm,
-WithdrawalCash,save deposit,,ox_mib_WUI__WUI___save,click,,1000
+WithdrawalCash,save Withdrawal,,ox_mib_WUI__WUI___save,click,,1000
 WithdrawalCash,Verify the save error msg,,ox_mib_WUI__errors_table,verifyText,errorMsg2,
 WithdrawalCash,Verify msg,,ox_mib_WUI__messages_table,verifyText,msg,
 WithdrawalCash,Verify saving balance after save ,,ox_mib_WUI__customerAc___savingBal,verifyInputText,savingBalAfter,
 WithdrawalCash,verify tables [csv file names were assumed from convention],,"Split,WidthdrawalNote,Trans,CAc",fnlyVerifyTables,,
-DepositCash,reset tables,,"Split,DepositNote,Trans,Cac",stpResetTables,,
+DepositCash,reset tables,,"Split,DepositNote,Trans,Cac,Job",stpResetTables,,
 DepositCash,Navigat to DUI,,,navigate,url,
 DepositCash,Cick new,,ox_mib_DUI__DUI___new,click,clickNew,
 DepositCash,Enter Cac Number,,ox_mib_DUI__customerAc___id,input,cacNo,1000
@@ -40,6 +40,6 @@ DepositCash,save deposit,,ox_mib_DUI__DUI___save,click,,1000
 DepositCash,Verify the save error msg,,ox_mib_DUI__errors_table,verifyText,errorMsg2,
 DepositCash,Verify msg,,ox_mib_DUI__messages_table,verifyText,msg,
 DepositCash,Verify saving balance after save ,,ox_mib_DUI__customerAc___savingBal,verifyInputText,savingBalAfter,
-DepositCash,verify tables [csv file names were assumed from convention],,"Split,DepositNote,Trans,CAc",fnlyVerifyTables,,
+DepositCash,verify tables [csv file names were assumed from convention],,"DepositNote,Trans,Cac,Split",fnlyVerifyTables,,
 QueryOptimization,set database,,"jdbc:mysql://localhost:3306/br4,a,1",setDB,,
 QueryOptimization,Check weather normal and optimized query are equivalent ,,,assertResultsEqual,,
