@@ -1,0 +1,16 @@
+"Test Case ID","Runmode","url","userName","password","terminal","errorMsg","Remark"
+"Login",1,"http://localhost:8080/mib","inoovalab",5454,"illff.br4","Current password is invalid ","valid user name and invalid number password, valid terminal"
+"Login",1,"http://localhost:8080/mib","assdf",4848,"illff.br4","Current password is invalid ","invalid user name and invalid number password, valid terminal"
+"Login",1,"http://localhost:8080/mib","inoovalab",5454,"illff.br4","Current password is invalid ","valid user name and invalid number password, valid terminal"
+"Login",1,"http://localhost:8080/mib","assdf",4848,"illff.br4","Current password is invalid ","invalid user name and invalid number password, valid terminal"
+"Login",1,"http://localhost:8080/mib","inoovalab","mi","illff.br7","Bad_credentials","invalid user name and valid password, valid terminal"
+"Login",1,"http://localhost:8080/mib","inoovalab","mi","illff.br4","NaN","valid user name and valid password, valid terminal- login success"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,"`",

@@ -1,0 +1,6 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SalesSuspand,item Code,,item_id,input,item_id,5000
+SalesSuspand,item Discount,,item_disc,input,item_disc,2500
+SalesSuspand,enter qty,,sal_qty,input,sal_qty,2000
+SalesSuspand,total discount,,BigDecimal_tdisc,input,BigDecimal_tdisc,2000
+SalesSuspand,suspand sale,,string_suspend,click,string_suspend,2000

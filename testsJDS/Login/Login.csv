@@ -1,0 +1,4 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+Login,Enter Username,,string_usr,input,string_usr,1000
+Login,Enter Password,,string_pwd,input,string_pwd,1000
+Login,username and password true interface login,,login,click,login,2000

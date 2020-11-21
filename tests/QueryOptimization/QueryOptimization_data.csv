@@ -1,0 +1,54 @@
+,Run Mode,Query1,Query2
+QueryOptimization,1,"SELECT
+T_trans.id,
+T_trans.cAc_id,
+T_trans.acDate,
+Split.notes,
+Split.amt,
+Split.ac1_id,
+Split.ac2_id,
+T_ac1.id,
+T_ac2.id,
+CONCAT(T_owner.fName,' ',T_owner.lName) AS person,
+     CONCAT(T_ownerOrg.name,' [ORG]') AS OrgName
+
+from Split
+left join Trans T_trans on Split.trans_id = T_trans.id
+left join Ac T_ac1 on Split.ac1_id = T_ac1.id
+left join Ac T_ac2 on Split.ac2_id = T_ac2.id
+left join CAc T_cAc on T_trans.cAc_id = T_cAc.id
+left join Person T_owner on T_cAc.owner_id = T_owner.id
+left join Org T_ownerOrg on T_cAc.ownerOrg_id = T_ownerOrg.id
+
+where
+((T_ac1.id=12 and T_ac2.id=10) or
+(T_ac1.id=7 and T_ac2.id=12) or
+(T_ac1.id=7 and T_ac2.id=45)) and
+(T_trans.acDate>='2019-01-01' and T_trans.acDate<='2020-04-30') and
+T_trans.status>0 order by T_trans.id;","SELECT
+trans.id,
+trans.cAc_id,
+trans.acDate,
+Split.notes,
+Split.amt,
+Split.ac1_id,
+Split.ac2_id,
+ac1.id,
+ac2.id,
+CONCAT(Person.fName,' ',Person.lName) AS person,
+     CONCAT(Org.name,' [ORG]') AS OrgName
+
+from Split
+join Trans on Split.trans_id = Trans.id
+join Ac ac1 on Split.ac1_id = ac1.id
+join Ac ac2 on Split.ac2_id = ac2.id
+join CAc on trans.cAc_id = CAc.id
+left join Person on cAc.owner_id = Person.id
+left join Org on cAc.ownerOrg_id = Org.id
+
+where
+((ac1.id=12 and ac2.id=10) or
+(ac1.id=7 and ac2.id=12) or
+(ac1.id=7 and ac2.id=45)) and
+(trans.acDate>='2019-01-01' and trans.acDate<='2020-04-30') and
+trans.status>0 order by trans.id;"

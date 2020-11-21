@@ -1,0 +1,13 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+OrgRegNew,click on AppFrame menu,1,mnuRegtration,ClickOnMenu,NaN,2500
+OrgRegNew,click on menu selection,2,itmOrganization,ClickOnMenu,NaN,2500
+OrgRegNew,enter org name,,org_name,input,org_name,1000
+OrgRegNew,enter org email,,org_email,input,org_email,1000
+OrgRegNew,enter org telephone,,org_tp,input,org_tp,1000
+OrgRegNew,enter org address Ln1,,org_addLn1,input,org_addLn1,1000
+OrgRegNew,enter org address Ln2,,org_addLn2,input,org_addLn2,1000
+OrgRegNew,set supplier,,Boolean_supplier,ClickOnCheckBox,Boolean_supplier,1000
+OrgRegNew,set manufacturer,,Boolean_manufacturer,ClickOnCheckBox,Boolean_manufacturer,1000
+OrgRegNew,save an organization,,org_save,click,NaN,1000
+OrgRegNew,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+OrgRegNew,New organization,,org_new,click,NaN,1000

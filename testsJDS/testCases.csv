@@ -1,0 +1,20 @@
+Test Case ID,Description,Runmode,Data File,Test Case Parameters
+AppConfig,Configuration to App,1,,breakOnFail:1
+Login,Login to system,0,,breakOnFail:1
+OrgRegNew,Register an orgainzation,0,,breakOnFail:1
+OrgRegEdit,Edit an orgainzation,0,,breakOnFail:1
+ItemRegUI,Register an item,0,,breakOnFail:1
+CategoryReg,Register a category,0,,breakOnFail:1
+OpenSales,Open sales window,1,,breakOnFail:0
+SalesItemId,"Normal sales, cash payment, print ",1,,breakOnFail:1
+SaleSearchDlg,"Normal sales, Item Search, cash payment, print ",0,,breakOnFail:1
+SalesDiscount,"Discount sales, item search, cash payment, print",0,,breakOnFail:1
+SalesTamilPrint,"Discount sales, item search, cash payment, tamil print",0,,breakOnFail:1
+SalesBatchSelect,"Discount sales, item search, batch select, cash payment, print",0,,breakOnFail:1
+SalesCardPayment,"Discount sales, item search, cash & card payment, print",0,,breakOnFail:1
+SalesSuspand,"Discount sales, item code, suspand",0,,breakOnFail:1
+SalesSuspandCont,"Continue another Discount sales, item search, cash payment, print",0,,breakOnFail:1
+SalesResume,"Resume sales, item search, cash & card payment, print",0,,breakOnFail:1
+SalesMinusZeroQty,"Minus, zero qty sales, cash payment, print ",0,,breakOnFail:1
+SalesVerifyData,"Verification datas, calculations",0,,breakOnFail:1
+SalesVerifyMessages,errorMessage verifications,0,,breakOnFail:1

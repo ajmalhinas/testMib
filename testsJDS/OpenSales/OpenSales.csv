@@ -1,0 +1,3 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+OpenSales,click on AppFrame menu,,mnuTrans,ClickOnMenu,trans,2000
+OpenSales,click on menu selection,,itmSales,ClickOnMenu,sales,2000

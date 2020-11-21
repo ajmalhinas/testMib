@@ -1,0 +1,2 @@
+Test Case ID,Description,Page Name,Object,Action Keyword,Data Set,Wait after
+Logout,Logout,,Sign out (inoovalab),clickLinkText,,

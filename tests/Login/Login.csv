@@ -1,0 +1,10 @@
+Test Case ID,Description,Page Name,Object,Action Keyword,Data Set,Wait after
+Login,set database,,"jdbc:mysql://localhost:3306/bank,a,1",setDB,,
+Login,Truncate data,,"LoginAttempt,gtSplit",stpTruncateTables,,
+Login,Navigate to website,,"illlc,JVmN3EKmUa",navigate,url,
+Login,Enter the Username in the UserName field,,ox_mib_SignInIL__user,input,userName,2000
+Login,Enter the Password in the Password field,,ox_mib_SignInIL__password,input,password,2000
+Login,Enter the terminal,,ox_mib_SignInIL__terminal,input,terminal,2000
+Login,Click on Login button,,ox_mib_SignInIL__SignInIL___signIn,click,,2000
+Login,Verify text,,ox_mib_SignInIL__errors_table,verifyText,errorMsg,2000
+0,verify tables [csv file names were assumed from convention],,"Client, LoginAttempt",fnlyVerifyTables,,2000

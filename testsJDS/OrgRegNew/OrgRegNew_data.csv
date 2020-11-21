@@ -1,0 +1,2 @@
+Test Case ID,Runmode,org_name,org_email,org_tp,org_addLn1,org_addLn2,Boolean_supplier,Boolean_manufacturer
+OrgRegNew,1,Teemah Biscuits (Pvt) Ltd,customer@teemah.com,114411222,Main Street,Ampara,TRUE,TRUE

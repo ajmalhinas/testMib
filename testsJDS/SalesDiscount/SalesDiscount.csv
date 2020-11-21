@@ -1,0 +1,13 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SalesDiscount,Enter item code,,item_id,input,item_id,2000
+SalesDiscount,item Discount,,item_disc,input,item_disc,2000
+SalesDiscount,enter qty,,sal_qty,input,sal_qty,2000
+SalesDiscount,total discount,,BigDecimal_tdisc,input,BigDecimal_tdisc,2000
+SalesDiscount,payment dialog,,pay,click,pay,2000
+SalesDiscount,Cash Tendered,,bigDecimal_cashTend,input,cashTend,2000
+SalesDiscount,Print,,print,click,print,2000
+NaN,save,,save,click,save,2000
+NaN,Re-print,,reprint,click,reprint,5000
+NaN,item search dialog,,item_id,SearchDialogShorcutKey,NaN,5000
+NaN,seach keywords,,string_filter,input,string_filter,2500
+NaN,select item from search table,,tblSearch,SearchDialogSelect,NaN,2500

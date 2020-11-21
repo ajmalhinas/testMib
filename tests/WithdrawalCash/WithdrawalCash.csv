@@ -1,0 +1,17 @@
+Test Case ID,Description,Page Name,Object,Action Keyword,Data Set,Wait after
+WithdrawalCash,reset tables,,"Split,WidthdrawalNote,Trans,Cac,Job",stpResetTables,,
+WithdrawalCash,Navigat to WUI,,,navigate,url,
+WithdrawalCash,Cick new,,ox_mib_WUI__WUI___new,click,clickNew,1000
+WithdrawalCash,Enter Cac Number,,ox_mib_WUI__customerAc___id,input,cacNo,1000
+WithdrawalCash,Click customer account search,,ox_mib_WUI__property_actions_customerAc___id,click,cacSearch,1000
+WithdrawalCash,Select a customer account from search dialog,,,clickLinkText,cacSelection,1000
+WithdrawalCash,Verify the cAc load error message,,ox_mib_WUI__errors_table,verifyText,errorMsg1,500
+WithdrawalCash,Verify the loaded Cac details,,ox_mib_WUI__customerAc___op1___fName,verifyInputText,fName,1000
+WithdrawalCash,Verify saving balance before save,,ox_mib_WUI__customerAc___savingBal,verifyInputText,savingBalBefore,1000
+WithdrawalCash,Enter the cash paid amount,,ox_mib_WUI__cashPayed,input,amt,1000
+WithdrawalCash,Enter the confirmation amount,,ox_mib_WUI__amtConfirm,input,amtConfirm,1000
+WithdrawalCash,save Withdrawal,,ox_mib_WUI__WUI___save,click,,1000
+WithdrawalCash,Verify the save error msg,,ox_mib_WUI__errors_table,verifyText,errorMsg2,1000
+WithdrawalCash,Verify msg,,ox_mib_WUI__messages_table,verifyText,msg,1000
+WithdrawalCash,Verify saving balance after save ,,ox_mib_WUI__customerAc___savingBal,verifyInputText,savingBalAfter,1000
+0,verify tables [csv file names were assumed from convention],,"Split,WidthdrawalNote,Trans,Cac",fnlyVerifyTables,,1000

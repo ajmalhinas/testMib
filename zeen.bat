@@ -1,1 +1,1 @@
-java -jar zeen.jar
+java -cp ".\modules\*" zeen.Zeen

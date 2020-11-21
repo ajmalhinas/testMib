@@ -1,0 +1,3 @@
+Test Case ID,Description,Page Name,Object,Action Keyword,Data Set,Wait after
+QueryOptimization,set database,,"jdbc:mysql://localhost:3306/br1,a,1",setDB,,
+QueryOptimization,Check weather normal and optimized query are equivalent ,,,assertResultsEqual,,

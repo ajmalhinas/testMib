@@ -1,0 +1,4 @@
+Test Case ID,Runmode,string_filter,sal_qty,item_disc,BigDecimal_tdisc,pay,cashTend,cashPaid,save,reprint,print
+SalesSuspandCont,1,noodles,7,3,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesSuspandCont,1,anchor,5,2,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesSuspandCont,1,lux,3,5,150,1,5000,NaN,1,1,1
