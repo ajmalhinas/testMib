@@ -1,0 +1,17 @@
+Test Case ID,Description,Page Name,Object,Action Keyword,Data Set,Wait after
+DepositCash,reset tables,,"Split,DepositNote,Trans,Cac,Job",stpResetTables,,
+DepositCash,Navigat to DUI,,,navigate,url,
+DepositCash,Cick new,,ox_mib_DUI__DUI___new,click,clickNew,1000
+DepositCash,Enter Cac Number,,ox_mib_DUI__customerAc___id,input,cacNo,1000
+DepositCash,Click customer account search,,ox_mib_DUI__property_actions_customerAc___id,click,cacSearch,1000
+DepositCash,Select a customer account from search dialog,,,clickLinkText,cacSelection,1000
+DepositCash,Verify the cAc load error message,,ox_mib_DUI__errors_table,verifyText,errorMsg1,1000
+DepositCash,Verify the loaded Cac details,,ox_mib_DUI__customerAc___op1___fName,verifyInputText,fName,1000
+DepositCash,Verify saving balance before save,,ox_mib_DUI__customerAc___savingBal,verifyInputText,savingBalBefore,1000
+DepositCash,Enter the cash paid amount,,ox_mib_DUI__cashPaid,input,amt,1000
+DepositCash,Enter the confirmation amount,,ox_mib_DUI__amtConfirm,input,amtConfirm,1000
+DepositCash,save deposit,,ox_mib_DUI__DUI___save,click,,1000
+DepositCash,Verify the save error msg,,ox_mib_DUI__errors_table,verifyText,errorMsg2,1000
+DepositCash,Verify msg,,ox_mib_DUI__messages_table,verifyText,msg,1000
+DepositCash,Verify saving balance after save ,,ox_mib_DUI__customerAc___savingBal,verifyInputText,savingBalAfter,1000
+0,verify tables [csv file names were assumed from convention],,"DepositNote,Trans,Cac,Split",fnlyVerifyTables,,1000
