@@ -1,0 +1,4 @@
+Test Case ID,Runmode,item_id,string_filter,sal_qty,item_disc,BigDecimal_tdisc,pay,cashTend,cashPaid,save,reprint,print
+SalesDiscount,1,491977065010,noodles,4,3,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesDiscount,1,4791025150479,anchor,6,2,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesDiscount,1,3086127501122,lux,2,5,300,1,5000,NaN,1,1,1

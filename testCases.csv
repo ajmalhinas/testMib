@@ -1,6 +1,0 @@
-Test Case ID,Description,Runmode,Data File,Test Case Parameters
-Login,LogIn in to banking application,1,,
-Logout,Logout from banking application,0,,
-DepositCash,Deposit cash,1,,breakOnFail:1
-WithdrawalCash,Withdrawal cash,1,,breakOnFail:1
-QueryOptimization,Check weather normal and optimized query are equivalent ,1,,

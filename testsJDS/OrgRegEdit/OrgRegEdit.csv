@@ -1,0 +1,8 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+OrgRegEdit,Search an organization,,org_name,SearchDialogShorcutKey,NaN,2000
+OrgRegEdit,type the organization name,,string_filter,input,search_keyword,2500
+OrgRegEdit,Choose the organization,,tblSearch,SearchDialogSelect,NaN,2500
+OrgRegEdit,edit org telephone,,org_email,input,edit_email,1000
+OrgRegEdit,save an organization,,org_save,click,NaN,1000
+OrgRegEdit,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+OrgRegEdit,exit window,,org_exit,click,NaN,1000

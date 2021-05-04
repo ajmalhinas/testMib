@@ -1,0 +1,34 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SalesVerifyMessages,enter item,,item_id,input,item_id,1000
+SalesVerifyMessages,Verify Price,,batc_salPrice,verifyText,batc_salPrice,1000
+SalesVerifyMessages,enter itemDisc,,item_disc,input,item_disc,1000
+SalesVerifyMessages,Verify Rate,,bigDecimal_rate,verifyText,bigDecimal_rate,1000
+SalesVerifyMessages,enter qty,,sal_qty,input,sal_qty,1000
+SalesVerifyMessages,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+SalesVerifyMessages,Verify amount,,BigDecimal_amt,verifyText,BigDecimal_amt,1000
+SalesVerifyMessages,Verify Total,,BigDecimal_total,verifyText,BigDecimal_total,1000
+SalesVerifyMessages,enter special disc,,BigDecimal_tdisc,input,BigDecimal_tdisc,1000
+SalesVerifyMessages,Verify net total,,BigDecimal_netTotal,verifyText,BigDecimal_netTotal,1000
+SalesVerifyMessages,payment dialog,,pay,click,pay,2000
+SalesVerifyMessages,Verify net total in Payment dg,,bigDecimal_netTotal,verifyText,bigDecimal_netTotal,1000
+SalesVerifyMessages,Cash Tendered,,bigDecimal_cashTend,input,bigDecimal_cashTend,1000
+SalesVerifyMessages,Verify cash paid,,bigDecimal_cashPaid,verifyText,bigDecimal_cashPaid,1000
+SalesVerifyMessages,Verify total paid,,bigDecimal_totalPaid,verifyText,bigDecimal_totalPaid,1000
+SalesVerifyMessages,Verify balance,,bigDecimal_balance,verifyText,bigDecimal_balance,1000
+SalesVerifyMessages,print,,print,click,print,1000
+SalesVerifyMessages,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+SalesVerifyMessages,Cash Tendered,,bigDecimal_cashTend,input,bigDecimal_cashTend2,1000
+SalesVerifyMessages,Verify cash paid,,bigDecimal_cashPaid,verifyText,bigDecimal_cashPaid2,1000
+SalesVerifyMessages,Card Paid,,bigDecimal_card,input,bigDecimal_card2,1000
+SalesVerifyMessages,Verify total paid,,bigDecimal_totalPaid,verifyText,bigDecimal_totalPaid2,1000
+SalesVerifyMessages,Verify balance,,bigDecimal_balance,verifyText,bigDecimal_balance2,1000
+SalesVerifyMessages,print,,print,click,print,1000
+SalesVerifyMessages,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+SalesVerifyMessages,Cash Tendered,,bigDecimal_cashTend,input,bigDecimal_cashTend3,1000
+SalesVerifyMessages,Verify cash paid,,bigDecimal_cashPaid,verifyText,bigDecimal_cashPaid3,1000
+SalesVerifyMessages,Card Paid,,bigDecimal_card,input,bigDecimal_card3,1000
+SalesVerifyMessages,Verify total paid,,bigDecimal_totalPaid,verifyText,bigDecimal_totalPaid3,1000
+SalesVerifyMessages,Verify balance,,bigDecimal_balance,verifyText,bigDecimal_balance3,1000
+SalesVerifyMessages,print,,print,click,print,1000
+NaN,verify tables,,"Split,Sal,Salnote,Trans,Cac",fnlyVerifyTables,NaN,1000
+NaN,Re-print,,reprint,click,reprint,5000

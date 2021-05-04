@@ -1,0 +1,8 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+CategoryReg,click on AppFrame menu,,mnuRegtration,ClickOnMenu,NaN,1000
+CategoryReg,click on menu selection,,jMenuItem1,ClickOnMenu,NaN,1000
+CategoryReg,New Item,,catnew,click,NaN,1000
+CategoryReg,enter category name,,category_name,input,category_name,1000
+CategoryReg,Save Item,,save,click,NaN,1000
+CategoryReg,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+CategoryReg,exit window,,exit,click,NaN,1000

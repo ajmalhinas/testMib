@@ -1,0 +1,5 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+AppConfig,set applicagtion,,..\..\Dev\JDSales\dist\JDSales.jar,setExecutableJar,,
+AppConfig,set database,,"jdbc:mysql://localhost:3306/ise,a,1",setDB,,5000
+AppConfig,Reset data,,"Split,Sal,Salnote,Trans",stpResetTables,,10000
+NaN,Truncate data,,"Split,Sal,Salnote,Trans",stpTruncateTables,,

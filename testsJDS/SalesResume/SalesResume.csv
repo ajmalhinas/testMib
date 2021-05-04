@@ -1,0 +1,6 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SalesResume,Resume sales,,string_suspend,click,string_suspend,2000
+SalesResume,payment dialog,,pay,click,pay,2000
+SalesResume,Cash Tendered,,bigDecimal_cashTend,input,cashTend,2000
+SalesResume,Card Payment,,bigDecimal_card,input,cardPaid,2000
+SalesResume,Print,,print,click,print,2000

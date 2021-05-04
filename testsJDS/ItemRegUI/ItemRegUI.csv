@@ -1,0 +1,19 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+ItemRegUI,click on AppFrame menu,,mnuRegtration,ClickOnMenu,NaN,1000
+ItemRegUI,click on menu selection,,itmItem,ClickOnMenu,NaN,1000
+ItemRegUI,enter item id,,item_id,input,item_id,1000
+ItemRegUI,enter item name,,item_itemName,input,item_itemName,1000
+ItemRegUI,load the category table,,category_name,SearchDialogShorcutKey,NaN,1000
+ItemRegUI,type the category,,string_filter,input,category_name,1000
+ItemRegUI,Choose the category,,tblSearch,SearchDialogSelect,NaN,1000
+ItemRegUI,load the supplier table,,org$0_name,SearchDialogShorcutKey,NaN,1000
+ItemRegUI,type the supplier,,string_filter,input,supplier_id,1000
+ItemRegUI,Choose the category,,tblSearch,SearchDialogSelect,NaN,1000
+ItemRegUI,load the manufaturer table,,org$1_name,SearchDialogShorcutKey,NaN,1000
+ItemRegUI,type the manufaturer,,string_filter,input,manufacturer_id,1000
+ItemRegUI,Choose the manufaturer,,tblSearch,SearchDialogSelect,NaN,1000
+ItemRegUI,Discount,,item_disc,input,item_disc,1000
+ItemRegUI,Save Item,,save,click,NaN,1000
+ItemRegUI,Show message dialog,,,ClickOnJOptionOK,NaN,1000
+ItemRegUI,New Item,,irnew,click,NaN,1000
+ItemRegUI,exit window,,exit,click,NaN,1000

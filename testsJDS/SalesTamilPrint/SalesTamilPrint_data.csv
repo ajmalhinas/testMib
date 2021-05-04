@@ -1,0 +1,4 @@
+Test Case ID,Runmode,string_filter,sal_qty,item_disc,BigDecimal_tdisc,pay,cashTend,cashPaid,save,reprint,printTamil
+SalesTamilPrint,1,noodles,5,3,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesTamilPrint,1,anchor,7,2,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+SalesTamilPrint,1,bairaha chicken ,3,5,300,1,5000,NaN,1,1,1

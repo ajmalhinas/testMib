@@ -1,0 +1,6 @@
+Test Case ID,Runmode,item_id,sal_qty,pay,cashTend,cashPaid,save,reprint,print
+SalesItemId,0,90376238,5,NaN,NaN,NaN,NaN,NaN,NaN
+SalesItemId,0,93236713,5,NaN,NaN,NaN,NaN,NaN,NaN
+SalesItemId,0,491977065010,3,NaN,NaN,NaN,NaN,NaN,NaN
+SalesItemId,1,4791025150479,4,NaN,NaN,NaN,NaN,NaN,NaN
+SalesItemId,1,3086127501122,7,1,5000,NaN,1,1,1

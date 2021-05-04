@@ -1,0 +1,10 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SaleSearchDlg,item search dialog,,item_id,SearchDialogShorcutKey,NaN,5000
+SaleSearchDlg,seach keywords,,string_filter,input,string_filter,2500
+SaleSearchDlg,select item from search table,,tblSearch,SearchDialogSelect,NaN,2500
+SaleSearchDlg,enter qty,,sal_qty,input,sal_qty,2000
+SaleSearchDlg,payment dialog,,pay,click,pay,2000
+SaleSearchDlg,Cash Tendered,,bigDecimal_cashTend,input,cashTend,2000
+SaleSearchDlg,Print,,print,click,print,2000
+NaN,save,,save,click,save,2000
+NaN,Re-print,,reprint,click,reprint,5000

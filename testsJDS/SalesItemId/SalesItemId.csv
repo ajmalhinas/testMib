@@ -1,0 +1,7 @@
+Test Case ID,Description,Page Name,Object,Action ,Data Set,Wait after
+SalesItemId,enter item,,item_id,input,item_id,2000
+SalesItemId,enter qty,,sal_qty,input,sal_qty,2000
+SalesItemId,payment dialog,,pay,click,pay,2000
+SalesItemId,Cash Tendered,,bigDecimal_cashTend,input,cashTend,2000
+SalesItemId,print,,save,click,print,2000
+SalesItemId,verify tables,,"Split,Sal,Salnote,Trans",fnlyVerifyTables,,2000

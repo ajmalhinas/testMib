@@ -1,0 +1,4 @@
+Test Case ID,Runmode,string_filter,sal_qty,pay,cashTend,cashPaid,save,reprint,print
+SaleSearchDlg,1,noodles,4,NaN,NaN,NaN,NaN,NaN,NaN
+SaleSearchDlg,1,anchor,6,NaN,NaN,NaN,NaN,NaN,NaN
+SaleSearchDlg,1,lux,2,1,5000,NaN,1,1,1

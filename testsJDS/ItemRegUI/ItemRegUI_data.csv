@@ -1,0 +1,4 @@
+Test Case ID,Runmode,item_id,item_itemName,category_name,org$0_name,org$1_name,,item_disc
+ItemRegUI,1,32,Fruit Ice Cream 250ML,ice cream,kotmale,kotmale,,3
+ItemRegUI,0,33,Fruit Ice Cream 500ML,ice cream,kotmale,kotmale,,3
+ItemRegUI,0,34,Fruit Ice Cream 1L,ice cream,kotmale,kotmale,,3
